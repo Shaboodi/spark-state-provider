@@ -6,7 +6,7 @@ import java.time.Instant
 import org.apache.spark.sql.streaming.GroupState
 import org.apache.spark.sql.{Encoder, Encoders}
 
-package object redis {
+package object tests {
 
   val random = new scala.util.Random
 
