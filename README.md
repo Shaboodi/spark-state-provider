@@ -144,7 +144,7 @@ Note: For the helper methods to be available, you must import the implicits as s
 
 ### Aerospike:
 
-To use Redis custom state store provider for your pipelines use the following additional configuration for the submit script/ SparkConf:
+To use Aerospike custom state store provider for your pipelines use the following additional configuration for the submit script/ SparkConf:
 
     --conf spark.sql.streaming.stateStore.providerClass="com.shaboodi.state.aerospike.AerospikeStateStoreProvider"
     --conf spark.sql.streaming.stateStore.aerospike.host="[AEROSPIKE_HOST]"
